@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<h2 align="center"><font color="#9966FF">free registration</font></h2>
+	<form action="proses.php" method="post" name="form"><table width="68%" border="0" align="center" cellpadding="0">
+	<tr>
+		<td width="15%">nama</td>
+		<td width="2%">:</td>
+		<td width="83%"><input type="text" name="txtNama" id="txtNama"></td>
+	</tr>
+	<tr>
+		<td>tgl lahir</td>
+		<td>:</td>
+		<td><input type="text" name="txtTgl" id="txtTgl" size="4" maxlength="2">
+		/
+		<input type="text" name="txtBulan" id="txtBulan" size="4" maxlength="2">
+		/
+		<input type="text" name="txtTahun" id="txtTahun" size="8" maxlength="4">
+		</td>
+	</tr>
+	<tr>
+		<td>alamat</td>
+		<td>&nbsp;</td>
+		<td><textarea name="txtAlamat" cols="40" rows="2" id="txtAlamat"></textarea></td>
+	</tr>
+	<tr>
+		<td>kota</td>
+		<td>:</td>
+		<td><input type="text" name="txtKota" id="txtKota"></td>
+	</tr>
+	<tr>
+		<td>pekerjaan</td>
+		<td>:</td>
+		<td><select name="cbojob" id="cbojob">
+			<option>tani</option>
+			<option>nelayan</option>
+			<option>karyawan</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>jenis kelamin</td>
+		<td>:</td>
+		<td><input type="radio" name="radJk" value="1" checked>laki-laki
+			<input type="radio" name="radJk" value="2" checked>perempuan
+		</td>
+	</tr>
+	<tr>
+		<td>hobby</td>
+		<td>:</td>
+		<td><input type="checkbox" name="cekReading" id="cekReading" value="1">Reading</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td><input type="checkbox" name="cekSport" id="cekSport" value="2">sport</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td><input type="checkbox" name="cekSing" id="cekSing" value="3">singing</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td><input type="checkbox" name="cekTravel" id="cekTravel" value="4">Traveling</td>
+	</tr>
+	<td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td><input type="submit" name="btnKirim" id="btnKirim" value="Kirim">
+			<input type="reset" name="btnCancel" id="btnCancel" value="Cancel">
+		</td>
+	</td>
+	</table></form>
+</body>
+</html>
