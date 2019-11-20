@@ -1,0 +1,37 @@
+<html>
+        <head>
+            <title>Tugas modul 8</title>
+            <script>
+                var nilai;
+                function lihat(){
+                    nilai = document.getElementById("myinput").value;
+                    if(0<=nilai && nilai<=20){
+                        document.getElementById("yog").innerHTML = "Nilai anda adalah = E";
+                    }
+                    else if(21<=nilai && nilai<=40){
+                        document.getElementById("yog").innerHTML = "Nilai anda adalah = D";
+                    }
+                    else if(41<=nilai && nilai<=60){
+                        document.getElementById("yog").innerHTML = "Nilai anda adalah = C";
+                    }
+                    else if(61<=nilai && nilai<=80){
+                        document.getElementById("yog").innerHTML = "Nilai anda adalah = B";
+                    }
+                    else if(81<=nilai && nilai<=100){
+                        document.getElementById("yog").innerHTML = "Nilai anda adalah = A";
+                    }
+                    else{
+                        document.getElementById("yog").innerHTML = "Nilai yang anda masukkan salah!";
+                    }
+                }
+            </script>
+            <h3>CEK NILAI</h3>
+        </head>
+        <body>
+            <form name="tugas">
+                Masukkan Nilai : <input type="text" id="myinput" size="10" maxlength="3"></br>
+                <input type="button" onclick="lihat();" value="Hasil">
+            </form>
+            <h3 id="yog"></h3>
+        </body>
+    </html>
