@@ -1,0 +1,26 @@
+body
+{
+background: url('yo.jpg');
+text-align:center;
+display:block;
+background-size: cover; 
+}
+h2
+{font-family:comic sans ms text;
+font-size:150;
+}
+table
+{ text-align: center;
+color:white;
+font-size:30;
+background:rgb(11, 4, 14)
+}
+.td {
+font-weight:bold;
+font-size:30;
+}
+.dashed
+{   
+border-style:dashed;
+border-color:rgb(25, 150, 35);
+}
